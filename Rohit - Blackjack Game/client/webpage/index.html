@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Blackjack</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    
+    <!-- style the webpage -->
+    <style> 
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      canvas {
+        background-image: url("bg.jpg");
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+
+    <!-- Define and load in required functions -->
+    <script src="api-web.js"></script>
+    <script src="client-web.js"></script>
+    <script src="canvas_text_input.js"></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+  </body>
+</html>
